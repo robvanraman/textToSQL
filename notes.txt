@@ -1,3 +1,6 @@
+name (string), age (int) , domain (string), gender (string), role(string) and favouriteSQL (string)  are the columns of my employee table.
+pls fetch all employee details and execute sql
+
 {
 	"servers": {
 		"get-friends-data": {
