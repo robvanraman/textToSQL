@@ -1,0 +1,26 @@
+{
+	"servers": {
+		"get-friends-data": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"D:/nodejs/friends-mcp-server/friends/index.js"
+			]
+		},
+        "get-email-data": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"D:/nodejs/friends-mcp-server/email/index.js"
+			]
+		},
+		"fetch-data-by-sql": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"D:/nodejs/friends-mcp-server/execsql/index.js"
+			]
+		}
+	},
+	"inputs": []
+}
